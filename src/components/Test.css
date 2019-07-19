@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #f5f5f5 !important;
+  min-height: 80px !important;
+}
+
+.navbar-brand{
+  color: red !important;
+}
+
+.navbar-link{
+  color: #1565c0 !important;
+  font-size: 18px;
+}
