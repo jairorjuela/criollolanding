@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Test from './components/Test';
+import Test from './components/NavbarHome';
 
 export const App = () => {
   return (
