@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
-import Test from './components/NavbarHome';
+import NavbarHome from './components/NavbarHome';
+import Main from "./components/Main";
 
 export const App = () => {
   return (
     <Fragment>
-      <Test />
+      <NavbarHome />
+      <Main />
     </Fragment>
   );
 };

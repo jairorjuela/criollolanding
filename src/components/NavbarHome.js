@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Navbar, Col } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import './NavbarHome.css';
 import logotipo from '../images/logotipo.jpg';
 
@@ -8,7 +9,8 @@ export const NavbarHome = () => {
     <Fragment>
         <Navbar collapseOnSelect expand="lg" variant="light" bg="light">
           <Col xs lg="4">
-            <Navbar.Brand href="#" >
+            <Navbar.Brand >
+            <Link to="/Home">
               <img
                 src={logotipo}
                 width="100%"
@@ -16,6 +18,7 @@ export const NavbarHome = () => {
                 className="d-inline-block align-top"
                 alt="CriolloSomosTodos"
               />
+            </Link>
             </Navbar.Brand>
           </Col>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
