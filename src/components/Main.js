@@ -5,7 +5,7 @@ import Home from "./Home";
 const Main = () => (
     <Fragment>
         <Switch>
-            <Route exact path="/Home" component={Home} />
+            <Route exact path="/" component={Home} />
         </Switch>
     </Fragment>
 );

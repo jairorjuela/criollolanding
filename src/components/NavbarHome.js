@@ -10,7 +10,7 @@ export const NavbarHome = () => {
         <Navbar collapseOnSelect expand="lg" variant="light" bg="light">
           <Col xs lg="4">
             <Navbar.Brand >
-            <Link to="/Home">
+            <Link to="/">
               <img
                 src={logotipo}
                 width="100%"
