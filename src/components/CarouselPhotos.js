@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import './Carousel.css';
 import rafa1 from '../images/rafa1.jpg';
 import rafa2 from '../images/rafa2.jpg';
+import rafa3 from '../images/rafa3.jpg';
 
 export const CarouselPhotos = () => {
 
@@ -16,38 +17,34 @@ export const CarouselPhotos = () => {
 
   return (
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
-      <Carousel.Item className="test">
-      <img
-        src={rafa1}
-        alt="CriolloSomosTodos"
-      />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <Carousel.Item className="imageResponsive">
+        <img
+          src={rafa1}
+          alt="CriolloSomosTodos"
+        />
+        <Carousel.Caption className="CarouselText">
+          <h3>#CriolloSomosTodos</h3>
+          <h4>Transformación</h4>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="imageResponsive2">
         <img
-          className="d-block w-20"
           src={rafa2}
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption className="CarouselText">
+          <h3>#CriolloSomosTodos</h3>
+          <h4>Principios</h4>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="imageResponsive">
       <img
-        className="d-block w-20"
-        src={rafa2}
+        src={rafa3}
         alt="Third slide"
       />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <Carousel.Caption className="CarouselText">
+          <h3>#CriolloSomosTodos</h3>
+          <h4>Familia</h4>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
