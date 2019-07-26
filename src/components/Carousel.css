@@ -23,3 +23,18 @@
   background-color: #1976d2 !important;
   border-radius: 30px;
 }
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .CarouselText h3 {
+    background-color: black !important;
+    border-radius: 30px;
+    font-size: 12px;
+  }
+
+  .CarouselText h4 {
+    background-color: black !important;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
