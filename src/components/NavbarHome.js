@@ -23,7 +23,7 @@ export const NavbarHome = () => {
           </Col>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse className="justify-content-end">
-            <Col xs lg="8">
+            <Col xs="4" lg="8">
               <Navbar.Brand href="#" className="navbar-link">
                 ¿Quién es Criollo?
               </Navbar.Brand>
