@@ -24,6 +24,12 @@
   border-radius: 30px;
 }
 
+.carousel {
+  width: 1200px;
+  height: 1200px;
+  margin: auto;
+}
+
 @media (min-width: 300px) and (max-width: 600px) {
   .CarouselText h3 {
     background-color: black !important;

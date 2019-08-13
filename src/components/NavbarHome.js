@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Navbar, Col } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 import './NavbarHome.css';
-import logotipo from '../images/logotipo.jpg';
+import logoBloque from '../images/logoBloque.svg';
 import Home from "./Home";
 
 export const NavbarHome = () => {
@@ -13,7 +13,7 @@ export const NavbarHome = () => {
             <Navbar.Brand >
             <NavLink to="/" component={Home}>
               <img
-                src={logotipo}
+                src={logoBloque}
                 width="100%"
                 height="100%"
                 className="d-inline-block align-top"
