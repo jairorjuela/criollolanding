@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Carousel.css';
-import rafa1 from '../images/rafa1.jpg';
+import rafa4 from '../images/rafa4.jpg';
 import rafa2 from '../images/rafa2.jpg';
 import rafa3 from '../images/rafa3.jpg';
 
@@ -19,7 +19,7 @@ export const CarouselPhotos = () => {
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
       <Carousel.Item className="imageResponsive">
         <img
-          src={rafa1}
+          src={rafa4}
           alt="CriolloSomosTodos"
         />
         <Carousel.Caption className="CarouselText">
