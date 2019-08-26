@@ -4,6 +4,8 @@ import './Carousel.css';
 import rafa4 from '../images/rafa4.jpg';
 import rafa2 from '../images/rafa2.jpg';
 import rafa3 from '../images/rafa3.jpg';
+import test from '../images/test.jpg';
+
 
 export const CarouselPhotos = () => {
 
@@ -19,7 +21,7 @@ export const CarouselPhotos = () => {
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
       <Carousel.Item className="imageResponsive">
         <img
-          src={rafa4}
+          src={test}
           alt="CriolloSomosTodos"
         />
         <Carousel.Caption className="CarouselText">
