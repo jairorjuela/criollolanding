@@ -1,11 +1,10 @@
-import React, {Fragment} from "react";
+import React from "react";
 import './Back1.css';
 
 const Back1 = () => (
-  <Fragment>
-    <div>
+    <div className="b1">
+      <h1>holi1</h1>
     </div>
-  </Fragment>
 );
 
 export default Back1;
