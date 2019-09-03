@@ -1,9 +1,14 @@
 import React from "react";
 import './Back2.css';
+import logoBloque from '../images/logoBloque.svg';
 
 const Back2 = () => (
     <div className="b2">
-    <h1>holi2</h1>
+      <img
+        className="back2"
+        src={logoBloque}
+        alt="CriolloSomosTodos"
+      />
     </div>
 );
 

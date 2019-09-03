@@ -1,5 +1,5 @@
 .b2{
-  background-color: blue;
+  background-color: #6ec6ff;
   align-items: center;
   display: flex;
   height: 100vh;
@@ -7,4 +7,8 @@
   position: relative;
   width: calc(100vw + 15px);
   z-index: 1;
+}
+
+.back2{
+  height: 100vh;
 }
