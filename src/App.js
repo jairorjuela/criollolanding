@@ -3,12 +3,16 @@ import React, {Fragment} from 'react';
 // import Main from "./components/Main";
 import Back1 from "./components/Back1";
 import Back2 from "./components/Back2";
+import Back3 from "./components/Back3";
+import Back4 from "./components/Back4";
 
 export const App = () => {
   return (
     <Fragment>
       <Back1 />
       <Back2 />
+      <Back3 />
+      <Back4 />
     </Fragment>
   );
 };

@@ -1,15 +1,20 @@
 import React from "react";
 import './Back2.css';
-import logoBloque from '../images/logoBloque.svg';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+import banner2 from '../images/banner2.png';
 
 const Back2 = () => (
-    <div className="b2">
-      <img
-        className="back2"
-        src={logoBloque}
-        alt="CriolloSomosTodos"
-      />
-    </div>
+  <Container fluid={true}>
+    <Row>
+      <Col xs={12} id="b2">
+        <Image
+          src={banner2}
+          alt="CriolloSomosTodos"
+          fluid
+        />
+      </Col>
+    </Row>
+  </Container>
 );
 
 export default Back2;

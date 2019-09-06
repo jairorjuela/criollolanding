@@ -1,0 +1,10 @@
+#b3{
+  background-color: #fa5788;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}

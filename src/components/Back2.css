@@ -1,4 +1,4 @@
-.b2{
+#b2{
   background-color: #6ec6ff;
   align-items: center;
   display: flex;
@@ -7,8 +7,4 @@
   position: relative;
   width: calc(100vw + 15px);
   z-index: 1;
-}
-
-.back2{
-  height: 100vh;
 }
