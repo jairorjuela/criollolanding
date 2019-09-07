@@ -7,7 +7,7 @@ const Back4 = () => (
   <Container fluid={true}>
     <Row>
       <Col xs={12} id="b4">
-      <Button variant="success" size="lg" block>
+      <Button variant="warning" size="lg" block>
         <a href={plandetrabajo} download>Descarga mi plan de trabajo</a>
       </Button>
       </Col>
