@@ -4,6 +4,7 @@ import Back1 from "./Back1";
 import Back2 from "./Back2";
 import Back3 from "./Back3";
 import Back4 from "./Back4";
+import Back4movile from "./Back4movile";
 import Back5 from "./Back5";
 import Back6 from "./Back6";
 import Back7 from "./Back7";
@@ -36,8 +37,28 @@ import Back9 from "./Back9";
         <Back8 />
         <Back9 />
       </Desktop>
-      <Tablet>Tablet</Tablet>
-      <Mobile>Mobile</Mobile>
+      <Tablet>
+        <Back1 />
+        <Back2 />
+        <Back3 />
+        <Back4movile />
+        <Back5 />
+        <Back6 />
+        <Back7 />
+        <Back8 />
+        <Back9 />
+      </Tablet>
+      <Mobile>
+        <Back1 />
+        <Back2 />
+        <Back3 />
+        <Back4movile />
+        <Back5 />
+        <Back6 />
+        <Back7 />
+        <Back8 />
+        <Back9 />
+      </Mobile>
     </Fragment>
   )
 

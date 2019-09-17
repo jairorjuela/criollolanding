@@ -1,0 +1,23 @@
+#b4m{
+  background-image: url('../images/desktop/SECCION-4.png');
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}
+
+#imagem{
+  width: 40%;
+}
+
+#textm{
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  width: 100%
+}

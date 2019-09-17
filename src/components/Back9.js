@@ -47,7 +47,6 @@ const Back9 = () => (
         target="_blank">
         <img src={tw} id="imageFoot"/>
       </a>
-
     </Card.Footer>
   </Container>
 );
