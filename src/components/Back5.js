@@ -1,19 +1,15 @@
 import React from "react";
 import './Back5.css';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import campo from '../images/campo.jpeg';
+import { Container, Row } from 'react-bootstrap';
+import titulo from '../images/desktop/titular1.svg';
 
 const Back5 = () => (
   <Container fluid={true}>
-    <Row>
-      <Col xs={12} id="b5">
-        <Image
-          id="campo"
-          src={campo}
-          alt="CriolloSomosTodos"
-          thumbnail
-        />
-      </Col>
+    <Row id="b5">
+      <img src={titulo} id="image" />
+      <h1 id="text">
+        La labor social de la iglesia se visibilizará como aporte a la cultura de la Paz.
+      </h1>
     </Row>
   </Container>
 );

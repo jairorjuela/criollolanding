@@ -1,0 +1,22 @@
+#b7{
+  background-image: url('../images/desktop/SECCION-7.png');
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}
+
+#image{
+  width: 40%;
+}
+
+#text{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  width: 70%
+}

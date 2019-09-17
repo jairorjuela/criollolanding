@@ -1,20 +1,19 @@
 import React from "react";
 import './Back1.css';
-import banner1 from '../images/banner1.png';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Image } from 'react-bootstrap';
+import banner1 from '../images/desktop/SECCION-1.png';
 
-const Back1 = () => (
-    <Container fluid={true}>
-      <Row>
-        <Col xs={12} id="b1">
-          <Image
-            src={banner1}
-            alt="CriolloSomosTodos"
-            fluid
-          />
-        </Col>
-      </Row>
-    </Container>
+const Back2 = () => (
+  <Container fluid={true}>
+    <Row>
+      <Image
+        id="b1"
+        src={banner1}
+        alt="CriolloSomosTodos"
+        fluid
+      />
+    </Row>
+  </Container>
 );
 
-export default Back1;
+export default Back2;

@@ -1,5 +1,5 @@
 #b5{
-  background-color: #0d47a1;
+  background-image: url('../images/desktop/SECCION-5.png');
   align-items: center;
   display: flex;
   height: 100vh;
@@ -9,6 +9,14 @@
   z-index: 1;
 }
 
-#campo{
-  width: 42%;
+#image{
+  width: 40%;
+}
+
+#text{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  width: 70%
 }

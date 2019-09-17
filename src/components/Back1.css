@@ -4,6 +4,6 @@
   height: 100vh;
   justify-content: center;
   position: relative;
-  width: calc(100vw + 30px);
+  width: calc(100vw + 15px);
   z-index: 1;
 }

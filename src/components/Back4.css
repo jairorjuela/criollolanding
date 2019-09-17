@@ -1,5 +1,5 @@
 #b4{
-  background-color: #d32f2f;
+  background-image: url('../images/desktop/SECCION-4.png');
   align-items: center;
   display: flex;
   height: 100vh;
@@ -7,4 +7,16 @@
   position: relative;
   width: calc(100vw + 15px);
   z-index: 1;
+}
+
+#image{
+  width: 40%;
+}
+
+#text{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  width: 70%
 }
