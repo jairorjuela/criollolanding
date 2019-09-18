@@ -1,10 +1,19 @@
 #b2{
-  background-color: #0d47a1;
-  align-items: center;
+  background-image: url('../images/desktop/SECCION-2.png');
+  background-size: cover;
   display: flex;
   height: 100vh;
   justify-content: center;
   position: relative;
   width: calc(100vw + 15px);
   z-index: 1;
+}
+
+#text2{
+  color: white;
+  text-align: justify;
+  position: inherit;
+  font-size: 20px;
+  width: 70%;
+  top: 460px;
 }

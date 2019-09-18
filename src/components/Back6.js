@@ -6,8 +6,8 @@ import titulo from '../images/desktop/titular2.svg';
 const Back6 = () => (
   <Container fluid={true}>
     <Row id="b6">
-      <img src={titulo} id="image" />
-      <h1 id="text">
+      <img src={titulo} id="image6" />
+      <h1 id="text6">
         La implementación de la tecnificación agrícola en la ruralidad Bogotana, generará empleo y fortalecerá la Seguridad Alimentaria.
       </h1>
     </Row>

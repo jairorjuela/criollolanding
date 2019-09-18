@@ -9,7 +9,7 @@
   z-index: 1;
 }
 
-#image{
+#image9{
   width: 40%;
 }
 
@@ -22,13 +22,17 @@
 }
 
 #foot{
-  background-image: url('../images/foot.png');
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
+  background-image: url('../images/foote.png');
+  background-repeat: no-repeat;
+  height: 45vh;
 }
 
 #imageFoot{
   width: 3%;
+}
+
+#redes{
+  top: 150px;
+  position: relative;
+  left: 50%;
 }
