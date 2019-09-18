@@ -1,0 +1,19 @@
+#b2m{
+  background-image: url('../images/movil/SECCION-2.png');
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}
+
+#text2m{
+  color: white;
+  text-align: justify;
+  position: inherit;
+  font-size: 12px;
+  width: 80%;
+  top: 260px;
+}

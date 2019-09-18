@@ -1,0 +1,40 @@
+#b9m{
+  background-image: url('../images/desktop/SECCION-8.png');
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}
+
+#image9m{
+  width: 90%;
+}
+
+#text9m{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  font-size: 40px;
+}
+
+#footm{
+  background-image: url('../images/foote.png');
+  background-repeat: no-repeat;
+  height: 50vh;
+  position: absolute;
+  width: calc(90vw + 120px);
+  z-index: 12;
+}
+
+#imageFootm{
+  width: 10%;
+}
+
+#redesm{
+  top: 350px;
+  position: relative;
+}

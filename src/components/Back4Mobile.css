@@ -1,0 +1,22 @@
+#b4m{
+  background-image: url('../images/movil/SECCION-4.png');
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}
+
+#image4m{
+  width: 60%;
+}
+
+#text4m{
+  color: white;
+  text-align: justify;
+  position: inherit;
+  font-size: 22px;
+  width: 80%;
+}
