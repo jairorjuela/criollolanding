@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e06ec2e82ecff5600a163b3d9585cc46",
+    "revision": "ba1efd526cbaadae70c47e0ee3712562",
     "url": "/index.html"
   },
   {
-    "revision": "514cd046a9d28dc4ca3b",
-    "url": "/static/css/main.197b1cec.chunk.css"
+    "revision": "a2952cc36113ec3d0a7d",
+    "url": "/static/css/main.bca8adaf.chunk.css"
   },
   {
-    "revision": "6c2dd7c6e1df9eff68ca",
-    "url": "/static/js/2.7a813f36.chunk.js"
+    "revision": "fa4af49419779a63e8ff",
+    "url": "/static/js/2.49ff68c6.chunk.js"
   },
   {
-    "revision": "514cd046a9d28dc4ca3b",
-    "url": "/static/js/main.e31510a7.chunk.js"
+    "revision": "a2952cc36113ec3d0a7d",
+    "url": "/static/js/main.d0d0ca3d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -56,12 +56,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SECCION-4.d202ce75.png"
   },
   {
+    "revision": "695e2431ea0d88a6bc1b17cd48d1ea80",
+    "url": "/static/media/SECCION-5.695e2431.png"
+  },
+  {
     "revision": "9f4435c825b607a4dde5206297d3ae5c",
     "url": "/static/media/SECCION-5.9f4435c8.png"
   },
   {
+    "revision": "5e0f5e8c656d1faec8e11ebf297f03c4",
+    "url": "/static/media/SECCION-6.5e0f5e8c.png"
+  },
+  {
     "revision": "802c8f70a33aff76c8709db384ccf7d1",
     "url": "/static/media/SECCION-6.802c8f70.png"
+  },
+  {
+    "revision": "8a420965acc1b3a4fb200e2a33a505bc",
+    "url": "/static/media/SECCION-7.8a420965.png"
   },
   {
     "revision": "b1e49c91613b9786bd098e4287605cfc",
@@ -74,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b12d0e5ffa3afc51840dc5f169851785",
     "url": "/static/media/SECCION-8.b12d0e5f.png"
+  },
+  {
+    "revision": "35985c4455131fea05024c09397ff575",
+    "url": "/static/media/SECCION-9.35985c44.png"
   },
   {
     "revision": "9687087c3c7f688dd84627c76165d4b6",
