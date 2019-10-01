@@ -14,42 +14,43 @@ const Back9Mobile = () => (
       <h1 id="text9m">
         PLAN DE TRABAJO
       </h1>
-      <a href="" id="image9m" target="_blank">
+      <a href="" id="image91m" target="_blank">
         <img src={titulo} />
       </a>
     </Row>
-    <Card.Footer id="footm">
-      <div id="redesm">
-      <a href="mailto:concejobogota@criollosomostodos.co?subject=ContactoWeb"
-        id="image9m"
-        target="_blank">
-        <img src={email} id="imageFoot"/>
-        concejobogota@criollosomostodos.co
-      </a>
-      <a href="https://wpme.link/GztO"
-        id="image9m"
-        target="_blank">
-        <img src={whatsapp} id="imageFoot"/>
-        3054149114
-      </a>
-      </div>
-      <div id="redesm">
-      <a href="https://www.facebook.com/CriolloSomos/"
-        id="image9m"
-        target="_blank">
-        <img src={facebook} id="imageFootm"/>
-      </a>
-      <a href="https://www.instagram.com/rafaelcriollo/?igshid=1i46j41m8ai9n&fbclid=IwAR0umomWWsp7GBt-vGd0DWVy7ZNc7F8PxNNT1j1GlTph4OzHoq3Sr1jE7q8"
-        id="image9m"
-        target="_blank">
-        <img src={instagram} id="imageFootm"/>
-      </a>
-      <a href="https://twitter.com/RafaelCriolloP"
-        id="image9m"
-        target="_blank">
-        <img src={tw} id="imageFootm"/>
-      </a>
-      </div>
+    <Row id="footm">
+    </Row>
+    <Card.Footer>
+    <Row>
+        <a href="mailto:concejobogota@criollosomostodos.co?subject=ContactoWeb"
+          target="_blank"
+          id="email">
+          <img src={email} id="emailImage"/>
+          concejobogota@criollosomostodos.co
+        </a>
+    </Row>
+      <Row>
+        <a href="https://wpme.link/GztO"
+          target="_blank"
+          id="email">
+          <img src={whatsapp} id="emailImage"/>
+          3054149114
+        </a>
+      </Row>
+         <a href="https://www.facebook.com/CriolloSomos/"
+          target="_blank"
+          id="email">
+          <img src={facebook} id="emailImage"/>
+        </a>
+        <a href="https://www.instagram.com/rafaelcriollo/?igshid=1i46j41m8ai9n&fbclid=IwAR0umomWWsp7GBt-vGd0DWVy7ZNc7F8PxNNT1j1GlTph4OzHoq3Sr1jE7q8"
+          target="_blank">
+          <img src={instagram} id="emailImage"/>
+        </a>
+        <a href="https://twitter.com/RafaelCriolloP"
+          target="_blank"
+          id="email">
+          <img src={tw} id="emailImage"/>
+        </a>
     </Card.Footer>
   </Container>
 );
