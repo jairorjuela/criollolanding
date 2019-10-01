@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04417c66afc6ccfbadf05ce1fdcbda71",
+    "revision": "e06ec2e82ecff5600a163b3d9585cc46",
     "url": "/index.html"
   },
   {
-    "revision": "6a7e0618c534c1c98eba",
-    "url": "/static/css/main.5668791a.chunk.css"
+    "revision": "514cd046a9d28dc4ca3b",
+    "url": "/static/css/main.197b1cec.chunk.css"
   },
   {
     "revision": "6c2dd7c6e1df9eff68ca",
     "url": "/static/js/2.7a813f36.chunk.js"
   },
   {
-    "revision": "6a7e0618c534c1c98eba",
-    "url": "/static/js/main.54b2d074.chunk.js"
+    "revision": "514cd046a9d28dc4ca3b",
+    "url": "/static/js/main.e31510a7.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SECCION-8.412bd7b2.png"
   },
   {
+    "revision": "b12d0e5ffa3afc51840dc5f169851785",
+    "url": "/static/media/SECCION-8.b12d0e5f.png"
+  },
+  {
     "revision": "9687087c3c7f688dd84627c76165d4b6",
     "url": "/static/media/SECCION-9.9687087c.png"
   },
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "954131147a6cfff50e19415665c77afe",
     "url": "/static/media/facebook.95413114.svg"
+  },
+  {
+    "revision": "7002bb445ecff5577ee93b51468fd3a6",
+    "url": "/static/media/foote.7002bb44.jpg"
   },
   {
     "revision": "7a47f73d8b87051aa8557c0006eee939",
