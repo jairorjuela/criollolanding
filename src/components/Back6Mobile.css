@@ -1,0 +1,23 @@
+#b6m{
+  background-image: url('../images/movil/SECCION-6.png');
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}
+
+#image6m{
+  width: 70%;
+}
+
+#text6m{
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 23px;
+  bottom: 70px;
+  width: 70%
+}

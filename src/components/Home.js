@@ -17,6 +17,10 @@ import Back1Mobile from "./Back1Mobile";
 import Back2Mobile from "./Back2Mobile";
 import Back3Mobile from "./Back3Mobile";
 import Back4Mobile from "./Back4Mobile";
+import Back5Mobile from "./Back5Mobile";
+import Back6Mobile from "./Back6Mobile";
+import Back7Mobile from "./Back7Mobile";
+import Back8Mobile from "./Back8Mobile";
 import Back9Mobile from "./Back9Mobile";
 
   const Desktop = ({ children }) => {
@@ -50,10 +54,10 @@ import Back9Mobile from "./Back9Mobile";
         <Back2Mobile />
         <Back3Mobile />
         <Back4Mobile />
-        <Back5 />
-        <Back6 />
-        <Back7 />
-        <Back8 />
+        <Back5Mobile  />
+        <Back6Mobile />
+        <Back7Mobile />
+        <Back8Mobile />
         <Back9Mobile />
       </Tablet>
       <Mobile>
@@ -61,10 +65,10 @@ import Back9Mobile from "./Back9Mobile";
         <Back2Mobile />
         <Back3Mobile />
         <Back4Mobile />
-        <Back5 />
-        <Back6 />
-        <Back7 />
-        <Back8 />
+        <Back5Mobile  />
+        <Back6Mobile />
+        <Back7Mobile />
+        <Back8Mobile />
         <Back9Mobile />
       </Mobile>
     </Fragment>

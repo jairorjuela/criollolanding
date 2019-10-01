@@ -1,0 +1,23 @@
+#b5m{
+  background-image: url('../images/movil/SECCION-5.png');
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw + 15px);
+  z-index: 1;
+}
+
+#image5m{
+  width: 70%;
+}
+
+#text5m{
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+  bottom: 70px;
+  width: 70%
+}
